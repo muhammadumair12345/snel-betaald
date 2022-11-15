@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Button, TextField } from "@mui/material";
-import { Form } from "../../styles/Form.style";
-import { Box } from "../../styles/Box.style";
+import { Button, Checkbox, FormControlLabel, TextField } from "@mui/material";
+import { Form } from "../../../styles/Form.style";
 
 const initialData = {
   name: "",
@@ -92,6 +91,10 @@ const RefundForm = () => {
         onChange={handleChange}
         value={form.cvc}
         size="small"
+      />
+      <FormControlLabel
+        control={<Checkbox />}
+        label="I accept to agree with the Terms & Conditions"
       />
       <Button type="submit" size="large" variant="contained">
         Send Request

@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../Logo";
-import SelectLanguage from "../SelectLanguage";
-import { Box } from "../../styles/Box.style";
+import Logo from "../../../components/Logo";
+import SelectLanguage from "../../../components/SelectLanguage";
+import { Box } from "../../../styles/Box.style";
 
 const NavBar = () => {
   return (

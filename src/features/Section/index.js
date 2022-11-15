@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { SectionBox } from "./Section.style";
 import { ToggleContext } from "../../contexts/ToggleContext";
-import TopupForm from "../TopupForm";
-import RefundForm from "../RefundForm";
+import TopupForm from "./TopupForm";
+import RefundForm from "./RefundForm";
 
 const Section = () => {
   const { toggle } = useContext(ToggleContext);

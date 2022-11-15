@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import { Button, TextField } from "@mui/material";
-import { Form } from "../../styles/Form.style";
+import { Button, Checkbox, FormControlLabel, TextField } from "@mui/material";
+import { Form } from "../../../styles/Form.style";
+import SwapHorizIcon from "@mui/icons-material/SwapHoriz";
+import SwapVertIcon from "@mui/icons-material/SwapVert";
 
 const initialData = {
   pasnummer: "",
@@ -45,6 +47,8 @@ const TopupForm = () => {
         value={form.euro}
         size="small"
       />
+      <SwapHorizIcon size="20" />
+      <SwapVertIcon size="20" />
       <TextField
         name="credits"
         type="number"
@@ -53,6 +57,10 @@ const TopupForm = () => {
         onChange={handleChange}
         value={form.credits}
         size="small"
+      />
+      <FormControlLabel
+        control={<Checkbox />}
+        label="I accept to agree with the Terms & Conditions"
       />
       <Button type="submit" size="large" variant="contained">
         Pay
