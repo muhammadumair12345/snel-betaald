@@ -1,15 +1,20 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-  shape: { borderRadius: 25 },
+  shape: { borderRadius: 6 },
   typography: {
-    button: {
-      fontSize: "14px",
-    },
+    button: { textTransform: "capitalize", fontWeight: "bold" },
   },
   palette: {
     primary: {
+      main: "#4263EB",
+    },
+    secondary: {
       main: "#25B583",
+      contrastText: "#fff",
+    },
+    light: {
+      main: "#fff",
     },
   },
 });

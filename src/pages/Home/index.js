@@ -1,7 +1,15 @@
 import React from "react";
+import Header from "../../features/Header";
 
 const Home = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Header />
+      <section>
+        <form></form>
+      </section>
+    </>
+  );
 };
 
 export default Home;
