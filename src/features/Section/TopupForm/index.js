@@ -39,7 +39,7 @@ const TopupForm = () => {
   return (
     <Form onSubmit={handleSubmit}>
       <Box>
-        <Box direction="column">
+        <Box direction="column" flex="0 30rem">
           <TextField
             name="pasnummer"
             type="number"
@@ -76,13 +76,13 @@ const TopupForm = () => {
               size="small"
             />
           </Box>
-          <Box align="center" gap="0">
-            <FormControlLabel control={<Checkbox />} />
-            <div>
-              I accept to agree with the <Link>Terms & Conditions</Link>
-            </div>
-          </Box>
         </Box>
+      </Box>
+      <Box align="center" gap="0">
+        <FormControlLabel control={<Checkbox />} />
+        <div>
+          I accept to agree with the <Link>Terms & Conditions</Link>
+        </div>
       </Box>
       <Button type="submit" size="large" variant="contained">
         Pay
