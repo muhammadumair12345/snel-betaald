@@ -7,14 +7,11 @@ export const ButtonsBox = styled.div`
   width: 20rem;
   padding: 4px;
   position: relative;
-  bottom: -28px;
+  bottom: -12px;
   background: #ffffff;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   button {
     flex: 1;
-  }
-  @media only screen and (max-width: 550px) {
-    margin: auto;
   }
 `;
