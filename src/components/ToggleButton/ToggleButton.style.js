@@ -15,5 +15,7 @@ export const ButtonsBox = styled.div`
     flex: 1;
   }
   @media only screen and (max-width: 550px) {
+    position: relative;
+    margin: auto;
   }
 `;
