@@ -27,7 +27,7 @@ const ToggleButton = () => {
         ))}
       </ButtonsBox>
       {toggle ? (
-        <Typography variant="body2" order={matches ? 1 : 2}>
+        <Typography textAlign="center" variant="body2" order={matches ? 1 : 2}>
           An amount of $5 will be deducted on each refund
         </Typography>
       ) : (
