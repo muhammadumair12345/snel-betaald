@@ -30,8 +30,16 @@ const SelectLanguage = () => {
     <FormControl size="small">
       <Select
         onChange={handleChange}
+        color="light"
         value={data?.language}
         name="language"
+        sx={{
+          border: "1px solid #fff",
+          color: "#fff",
+          "& .MuiSvgIcon-root": {
+            color: "white",
+          },
+        }}
         MenuProps={MenuProps}
       >
         {languages.map((language) => (
