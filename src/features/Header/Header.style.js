@@ -8,5 +8,6 @@ export const HeaderBox = styled.header`
 
   @media only screen and (max-width: 550px) {
     background: #05224f;
+    padding: 2rem;
   }
 `;
