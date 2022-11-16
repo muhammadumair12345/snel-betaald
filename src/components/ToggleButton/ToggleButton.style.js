@@ -3,8 +3,8 @@ import styled from "@emotion/styled";
 export const ButtonsBox = styled.div`
   display: flex;
   gap: 0.4rem;
-  min-height: 4rem;
-  width: 22rem;
+  min-height: 3.5rem;
+  width: 20rem;
   padding: 4px;
   position: absolute;
   bottom: -25px;

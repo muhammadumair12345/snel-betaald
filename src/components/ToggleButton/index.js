@@ -12,7 +12,7 @@ const ToggleButton = () => {
         <Button
           key={index}
           onClick={() => setToggle(index)}
-          variant={toggle === index ? "contained" : "outlined"}
+          variant={toggle === index && "contained"}
           color="secondary"
         >
           {text}
